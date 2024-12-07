@@ -1,0 +1,1587 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Practica Developer Page</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="ep-lifecycle"
+                  title="Practica Developer Page"
+                  environment="web"
+                  feedback-link="https://github.com/SolaceDev/solace-dev-codelabs/blob/master/markdown/ep-lifecycle">
+    
+      <google-codelab-step label="Etiquetas en HTML" duration="3">
+        
+        <p><strong>Practica 3: Developer Page</strong></p>
+       
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica 3: Developer Page</title>
+  <style>
+      .azul {
+          color: blue;
+      }
+  </style>
+</head>
+<body>
+  <p class="azul"><strong>Etiquetas en HTML:</strong></p>
+  <ol style="font-weight: bold;">
+    <li>Crear los textos principales de etiquetas en HTML.</li>
+</ol>
+<pre>
+  <code>&lt;!DOCTYPE html&gt;
+  &lt;html lang="en"&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+      &lt;h1&gt;Lilian Cano Developer&lt;/h1&gt;
+  
+      &lt;h2&gt;Diseño y desarrollo Web&lt;/h2&gt;
+  
+      &lt;p&gt;Mérida, Yucatán&lt;/p&gt;
+  
+      &lt;h2&gt;Mis servicios&lt;/h2&gt;
+  
+      &lt;h3&gt;Diseño Web&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+  
+      &lt;h3&gt;Aplicaciones Móviles&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+  
+      &lt;h3&gt;E-Commerce&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+  
+      &lt;h2&gt;Mis servicios&lt;/h2&gt;
+      &lt;p&gt;Todos los derechos reservados ©. Lilian Cano Developer&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  </code>
+              </pre>
+     
+  <body>
+    <li><strong>2. Crear la estructura del contenido.</strong></li>
+
+    <pre>
+      <code>&lt;!DOCTYPE html&gt;
+      &lt;html lang="en"&gt;
+      &lt;head&gt;
+          &lt;meta charset="UTF-8"&gt;
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          &lt;title&gt;Document&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+          &lt;header&gt;
+              &lt;h1&gt;Lilian Cano Developer&lt;/h1&gt;
+          &lt;/header&gt;
+      
+          &lt;section&gt;
+              &lt;h2&gt;Diseño y desarrollo Web&lt;/h2&gt;
+      
+              &lt;p&gt;Mérida, Yucatán&lt;/p&gt;
+          &lt;/section&gt;
+      
+          &lt;main&gt;
+              &lt;h2&gt;Mis servicios&lt;/h2&gt;
+      
+              &lt;section&gt;
+                  &lt;h3&gt;Diseño Web&lt;/h3&gt;
+                  &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+              &lt;/section&gt;
+      
+              &lt;section&gt;
+                  &lt;h3&gt;Aplicaciones Móviles&lt;/h3&gt;
+                  &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+              &lt;/section&gt;
+      
+              &lt;section&gt;
+                  &lt;h3&gt;E-Commerce&lt;/h3&gt;
+                  &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+              &lt;/section&gt;
+          &lt;/main&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+      </code>
+                  </pre>
+   
+                  <pre>
+                    <code>&lt;/section&gt;
+                
+                    &lt;/main&gt;
+                    
+                
+                    &lt;section&gt;
+                        &lt;h2&gt;Contacto&lt;/h2&gt;
+                    &lt;/section&gt;
+                
+                    &lt;footer&gt;
+                        &lt;p&gt;Todos los derechos reservados ©. Lilian Cano Developer&lt;/p&gt;
+                    &lt;/footer&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                    </code>
+                </pre>
+                
+    <ol style="list-style-type: none; margin-left: 0; padding-left: 15px;">
+      <li><strong>3. <span style="margin-left: 5px;">Navegación para enlaces. (Debajo del header)</span></strong></li>
+  </ol>
+  
+
+  <pre>
+    <code>&lt;nav&gt;
+        &lt;a href="#"&gt;Inicio&lt;/a&gt;
+        &lt;a href="#"&gt;Sobre Mí&lt;/a&gt;
+        &lt;a href="#"&gt;Clientes&lt;/a&gt;
+        &lt;a href="#"&gt;Contacto&lt;/a&gt;
+    &lt;/nav&gt;
+    </code>
+</pre>
+
+  
+        <li><strong>4. Añadir imágenes en HTML</strong></li>
+    </ol>
+    
+    
+    Buscar en tablericons “map-pin” con #ffc107 y 88px. Buscar también en #000000 con 40px “palette”, “brand-android”, “brand-apple” y “credit-card”. Se muestra como ejemplo la manera de insertar imágenes con la etiqueta sin cierre 
+    <pre>
+      <code>&lt;!DOCTYPE html&gt;
+      &lt;html lang=&quot;es&quot;&gt;
+      &lt;head&gt;
+          &lt;meta charset=&quot;UTF-8&quot;&gt;
+          &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+          &lt;title&gt;RG Dev&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+          &lt;header&gt;
+              &lt;h1&gt;Lilian Cano Developer&lt;/h1&gt;
+          &lt;/header&gt;
+  
+          &lt;nav&gt;
+              &lt;a href=&quot;#&quot;&gt;Inicio&lt;/a&gt;
+              &lt;a href=&quot;#&quot;&gt;Sobre Mí&lt;/a&gt;
+              &lt;a href=&quot;#&quot;&gt;Clientes&lt;/a&gt;
+              &lt;a href=&quot;#&quot;&gt;Contacto&lt;/a&gt;
+          &lt;/nav&gt;
+  
+          &lt;section&gt;
+              &lt;h2&gt;Servicios&lt;/h2&gt;
+              &lt;p&gt;Descubre los servicios que ofrezco como desarrolladora web y más.&lt;/p&gt;
+          &lt;/section&gt;
+  
+          &lt;footer&gt;
+              &lt;p&gt;&copy; 2024 Lilian Cano. Todos los derechos reservados.&lt;/p&gt;
+          &lt;/footer&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+      </code>
+  </pre>
+  
+  <pre>
+    <code>&lt;a href=&quot;#&quot;&gt;Sobre M&iacute;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Clientes&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Contacto&lt;/a&gt;
+    &lt;/nav&gt;
+    
+    &lt;section&gt;
+        &lt;h2&gt;Dise&ntilde;o y desarrollo Web&lt;/h2&gt;
+
+        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-map-pin&quot; width=&quot;88&quot; height=&quot;88&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;#ffc107&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+            &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;/&gt;
+            &lt;path d=&quot;M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0&quot; /&gt;
+            &lt;path d=&quot;M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z&quot; /&gt;
+        &lt;/svg&gt;
+
+        &lt;p&gt;M&eacute;rida, Yucat&aacute;n&lt;/p&gt;
+
+        &lt;a href=&quot;#&quot;&gt;Contactar&lt;/a&gt;
+    &lt;/section&gt;
+    
+
+    &lt;main&gt;
+        &lt;h2&gt;Mis servicios&lt;/h2&gt;
+
+        &lt;section&gt;
+            &lt;h3&gt;Dise&ntilde;o Web&lt;/h3&gt;
+            &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-palette&quot; width=&quot;40&quot; height=&quot;40&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;#000000&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+                &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;/&gt;
+                &lt;path d=&quot;M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25&quot; /&gt;
+                &lt;path d=&quot;M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0&quot; /&gt;
+                &lt;path d=&quot;M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0&quot; /&gt;
+                &lt;path d=&quot;M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0&quot; /&gt;
+            &lt;/svg&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+    
+        &lt;/section&gt;
+
+        &lt;section&gt;
+            &lt;h3&gt;Aplicaciones M&oacute;viles&lt;/h3&gt;
+    </code>
+</pre>
+<pre>
+  <code>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-brand-android&quot; width=&quot;40&quot; height=&quot;40&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;#000000&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+              &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;/&gt;
+              &lt;path d=&quot;M4 10l0 6&quot; /&gt;
+              &lt;path d=&quot;M20 10l0 6&quot; /&gt;
+              &lt;path d=&quot;M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0&quot; /&gt;
+              &lt;path d=&quot;M8 3l1 2&quot; /&gt;
+              &lt;path d=&quot;M16 3l-1 2&quot; /&gt;
+              &lt;path d=&quot;M9 18l0 3&quot; /&gt;
+              &lt;path d=&quot;M15 18l0 3&quot; /&gt;
+            &lt;/svg&gt;
+
+          &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-brand-apple&quot; width=&quot;40&quot; height=&quot;40&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;#000000&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+              &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;/&gt;
+              &lt;path d=&quot;M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z&quot; /&gt;
+              &lt;path d=&quot;M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2&quot; /&gt;
+          &lt;/svg&gt;  
+
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;    
+
+      &lt;/section&gt;
+
+      &lt;section&gt;
+          &lt;h3&gt;E-Commerce&lt;/h3&gt;
+
+          &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-credit-card&quot; width=&quot;40&quot; height=&quot;40&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;#000000&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+              &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;/&gt;
+              &lt;path d=&quot;M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z&quot; /&gt;
+              &lt;path d=&quot;M3 10l18 0&quot; /&gt;
+              &lt;path d=&quot;M7 15l.01 0&quot; /&gt;
+              &lt;path d=&quot;M11 15l2 0&quot; /&gt;
+            &lt;/svg&gt;
+
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore dolor dicta iusto! Aliquam voluptates impedit quaerat fuga ab.&lt;/p&gt;
+  </code>
+</pre>
+<pre>
+  <code>&lt;/section&gt;
+
+  &lt;/main&gt;
+  
+
+  &lt;section&gt;
+      &lt;h2&gt;Contacto&lt;/h2&gt;
+  &lt;/section&gt;
+
+  &lt;footer&gt;
+      &lt;p&gt;Todos los derechos reservados &copy;. Rodrigo Gaxiola Developer&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+
+
+    <ol style="list-style-type: none; margin-left: 0; padding-left: 15px;">
+      • <strong>5<span style="margin-left: 5px;">. Añadir el formulario en la sección de contacto.</span></strong>
+
+  </ol>
+  
+  <pre>
+    <code>&lt;form&gt;
+            &lt;fieldset&gt;
+                &lt;Legend&gt;Llena tus datos para establecer contacto&lt;/Legend&gt;
+                &lt;div&gt;
+                    &lt;label&gt;Nombre&lt;/label&gt;
+                    &lt;input type=&quot;text&quot; placeholder=&quot;Tu nombre&quot;&gt;
+                &lt;/div&gt;
+
+                &lt;div&gt;
+                    &lt;label&gt;Tel&eacute;fono&lt;/label&gt;
+                    &lt;input type=&quot;tel&quot; placeholder=&quot;Tu tel&eacute;fono&quot;&gt;
+                &lt;/div&gt;
+
+                &lt;div&gt;
+                    &lt;label&gt;Correo&lt;/label&gt;
+                    &lt;input type=&quot;email&quot; placeholder=&quot;Tu Email&quot;&gt;
+                &lt;/div&gt;
+
+                &lt;div&gt;
+                    &lt;label&gt;Mensaje&lt;/label&gt;
+                    &lt;textarea&gt;&lt;/textarea&gt;
+                &lt;/div&gt;
+
+                &lt;div&gt;
+                    &lt;input type=&quot;submit&quot; value=&quot;Enviar&quot;&gt;
+                &lt;/div&gt;
+            &lt;/fieldset&gt;
+        &lt;/form&gt;
+</code>
+</pre>
+
+  
+  
+  <ol style="list-style-type: none; margin-left: 0; padding-left: 15px;">
+    <li style="list-style-type: disc; margin-left: 10px;"><strong>6<span style="margin-left: 5px;">.Crear hoja de estilos.</span></strong></li>
+
+</ol>
+Enlazarla con la etiqueta link en el index.html. Se muestra la técnica de precargado que optimiza la velocidad con la que se carga el CSS en el sitio web.
+<pre>
+  <code>&lt;link rel=&quot;preload&quot; href=&quot;css/styles.css&quot; as=&quot;style&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/styles.css&quot;&gt;</code>
+</pre>
+
+
+<ol style="list-style-type: none; margin-left: 0; padding-left: 15px;">
+  • <strong>7<span style="margin-left: 5px;">.Título. </span></strong>
+  Darle estilo al h1 y poner “developer” en la etiqueta span. Para un mejor manejo en CSS, crear la clase “titulo” en el h1 y también en el h2 de “Diseño y Desarrollo Web”. Se recalca la importancia del por qué por qué se tiene que usar span y no otras etiquetas como p o h2. Ajustar el tamaño de letra. También se recalca la importancia de las unidades de medida (em, píxeles y rem). Aplicar el hack del 62.5% y 16 px. 
+  1 rem = 10 px https://nekocalc.com/es/px-a-rem-conversor
+ 
+</ol>
+
+<pre>
+  <code>&lt;header&gt;
+      &lt;h1 class=&quot;titulo&quot;&gt;Lilian Cano &lt;span&gt;Developer&lt;/span&gt;&lt;/h1&gt;
+  &lt;/header&gt;</code>
+</pre>
+
+<pre>
+  <code>html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 16px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+.titulo span {
+  font-size: 2rem;
+}</code>
+</pre>
+
+
+<ol style="list-style-type: none; margin-left: 0; padding-left: 15px;">
+  • <strong>8<span style="margin-left: 5px;">.Especificidad en css.</span></strong>
+  Se refiere a la forma en que se resuelven los conflictos cuando múltiples reglas CSS se aplican a un mismo elemento HTML. Las reglas más específicas tienen prioridad sobre las reglas menos específicas. También existe la regla !important la cual no es muy recomedable usar. 
+
+ 
+</ol>
+
+<table>
+  <tr>
+    <td><img alt="Image" src="img/img13.png"></td>
+    <td><img alt="Image" src="img/img14.png"></td>
+    <td><img alt="Image" src="img/img15.png"></td>
+  </tr>
+</table>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Css" duration="2">
+             
+            <li><strong>9. Color en css</strong></li>
+      
+        Se crea la paleta de colores de manera global. Se crea un pseudo-selector, por ejemplo, root es un elemento que no existe como tal, pero que sirve para almacenar variables y se le conoce como custom properties. Una ventaja es que, si a lo largo del proyecto existe un cambio en algún color de la paleta, no se tendría que cambiar dicho color en todas las partes del código, sino únicamente en la definición de variables del custom properties. Se colocan al principio del código en CSS:
+        
+
+        <table>
+          <tr>
+            <td><img alt="Image" src="img/img16.png" width="400" height="300"></td>
+            <pre>
+              <code>:root {
+              --blanco: #ffffff;
+              --oscuro: #212121;
+              --primario: #ffc107;
+              --secundario: #0097a7;
+              --gris: #757575;
+              --grisClaro: #757575;</code>
+          </pre>
+          
+
+          </tr>
+        </table>
+        <li><strong>9. Fuente en css</strong></li>
+
+      
+        Existen varias páginas que ofrecen fuentes (tipografías) gratuitas, hay algunas que pueden llegar a costar hasta $20 k. En css se usa la propiedad “font-family” y se suelen poner 3 tipos de fuentes con el fin de que, si no existe alguna fuente en el sistema, continúe con la otra fuente. Por ejemplo, se pone font-family: Arial, Helvetica, Sans-Serif y significa que si el sistema no tiene Arial, se intentará cargar Helvetica y se aplicaría lo mismo con Sans-Serif. Buscar el tipo de letra “Krub” y seleccionar regular 400 y bold 700. https://fonts.google.com/specimen/Krub?query=krub
+
+        <pre>
+          <code>&lt;title&gt;LC Dev&lt;/title&gt;
+          &lt;!-- Agregar la importaci&oacute;n a Google fonts --&gt;
+          &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+          &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+          &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+          &lt;!-- Agregar de &uacute;ltimo el enlace al CSS personalizado --&gt;
+          &lt;link rel=&quot;preload&quot; href=&quot;css/styles.css&quot; as=&quot;style&quot;&gt;</code>
+      </pre>
+      
+
+        <li><strong>11.	Normalize en css</strong></li>
+
+      
+        Para intentar estandarizar de la mejor manera posible la forma en la que los diferentes navegadores interpretan los estilos de un sitio web, se creó normalize.css. Se busca en google y se agrega el código a un nuevo archivo  dentro de la carpeta CSS. Importante que el navegador no tenga un auto traductor porque podría afectar los nombres de los selectores. Siempre debe cargar primero y se deja la hoja de estilos personalizada hasta el final. Añadirle le preload y su enlace al CSS.
+
+
+        <pre>
+          <code>&lt;title&gt;LC Dev&lt;/title&gt;
+          &lt;!-- Siempre va primero normalize --&gt;
+          &lt;link rel=&quot;preload&quot; href=&quot;css/normalize.css&quot; as=&quot;style&quot;&gt;
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;css/normalize.css&quot;&gt;
+          &lt;!-- Agregar la importaci&oacute;n a Google fonts --&gt;</code>
+      </pre>
+      
+
+        <li><strong>12.	Color de fondo a la barra de navegación</strong></li>
+
+        Se le crea una clase al nav y se le aplica el color secundario
+        <pre>
+          <code>&lt;nav class=&quot;navegacion-principal&quot;&gt;</code>
+      </pre>
+      
+        <li><strong>13.	Abarcar el color en todo el ancho de la pantalla.</strong></li>
+
+        Se crea otra clase en el nav llamada “contenedor”. Se pueden crear múltiples clases, pero para los id solo debe existir uno. A dicho contenedor se le debe dar un tamaño de 1200 pixeles (120rem) y el margen 0 para el superior/inferior y automático en el izquierdo/derecho. De esa manera se le da mejor color pero aún no se obtiene el ancho completo. Para ello se envuelve en un div cuya clase se llamaría nav-bg (bg de background) y ahí ponerle el color de fondo.
+
+        <pre>
+          <code>&lt;div class=&quot;nav-bg&quot;&gt;
+              &lt;nav class=&quot;navegacion-principal contenedor&quot;&gt;
+                  &lt;a href=&quot;#&quot;&gt;Inicio&lt;/a&gt;
+                  &lt;a href=&quot;#&quot;&gt;Sobre M&iacute;&lt;/a&gt;
+                  &lt;a href=&quot;#&quot;&gt;Clientes&lt;/a&gt;
+                  &lt;a href=&quot;#&quot;&gt;Contacto&lt;/a&gt;
+              &lt;/nav&gt;
+          &lt;/div&gt;</code>
+      </pre>
+      
+      <pre>
+        <code>.contenedor{
+        width: 120rem; /*1200 pixeles por que 1rem = 1px*/
+        /*margin-top: 0;
+        margin-right: auto;</code>
+    </pre>
+    
+    <pre>
+      <code>.contenedor{
+      width: 120rem; /*1200 pixeles por que 1rem = 1px*/
+      /*margin-top: 0;
+      margin-right: auto;
+      margin-bottom: 0;
+      margin-left: auto; Las cuatro l&iacute;neas se pueden poner en una sola:*/
+      /*margin: 0 auto 0 auto; Y si se requiere a&uacute;n m&aacute;s corto:*/
+      margin: 0 auto;
+  }
+  .nav-bg{
+      background-color: var(--secundario);
+  }</code>
+  </pre>
+  
+      
+        
+
+        <li><strong>14.	Probando con el nav.</strong></li>
+
+        Para probar el funcionamiento de ciertas propiedades en CSS, se añade el siguiente código:
+     
+        <pre>
+          <code>.navegacion-principal a{
+          background-color: var(--primario);
+      }</code>
+      </pre>
+      <pre>
+        <code>&lt;a href=&quot;#&quot;&gt;Inicio InicioInicioInicioInicioInicioInicioInicioInicio&lt;/a&gt;</code>
+    </pre>
+          
+        Se puede apreciar que los elementos del nav tomaron el color primario, pero no cambió el color de toda la navegación como realmente se espera. Incluso si se hace más grande un elemento del nav con lo siguiente, sigue tomando el color primario solamente en los elementos del nav y no en toda la navegación como tal:
+        <pre>
+          <code>p {
+          background-color: var(--primario);
+      }</code>
+      </pre>
+      
+        Ahora bien, otro ejemplo es el siguiente. Si intenta colorear todo el elemento p notaremos un resultado diferente al nav:
+        <img alt="Image" src="img/img26.png"><br><br>
+        <img alt="Image" src="img/img27.png"><br><br>
+
+        <div style="text-align: center;">
+          <div style="text-align: left;">
+            Esto se debe al funcionamiento del display en CSS. Existen diferentes tipos de display, los dos más comunes (o los que el navegador aplica por defecto) son Display Block o Inline (que toma únicamente el espacio que requiere). Todos los elementos en HTML ya tienen un display por defecto y generalmente son algunos de los mencionados anteriormente.
+          
+            El display block, que es el que se usa en el HTML en general, tiene el siguiente funcionamiento:
+          </div>
+          <img alt="Image" src="img/img28.png" style="margin-bottom: 10px;">
+          El display inline, que es el que se usa en el nav, tiene el siguiente funcionamiento:
+          <img alt="Image" src="img/img29.png" style="margin-bottom: 10px;">
+
+          <p style="color: red; font-weight: bold; text-align: left;">
+            Notas importantes de display:
+          </p>
+          
+          <ul style="text-align: left;">
+            <li><strong>Ningún elemento tiene un display Flex o Grid por default (se explicará más adelante).</strong></li>
+            <li><strong>No es necesario especificar un display para cada elemento, salvo que se requiera modificar el que está por default.</strong></li>
+          </ul>
+          Mencionado lo anterior y para notar la diferencia, se añadirá la siguiente línea:
+
+
+          <pre>
+            <code>.navegacion-principal a{
+            background-color: var(--primario);
+            display: block;
+        }</code>
+        </pre>
+        
+        Se puede observar que la disposición de los elementos cambió para ponerse uno debajo del otro:
+        <img alt="Image" src="img/img31.png"><br><br>
+      </google-codelab-step>
+      En todo este paso las líneas de código fueron para fines didácticos, por lo que se tendrán que remover.
+
+
+    
+      <google-codelab-step label="Nav" duration="4">
+
+        <li><strong>15.	Continuando con el nav.</strong></li>
+        <ul style="text-align: left;">
+          <p style="color: red; font-weight: bold; text-align: left;">
+            Repasando conceptos:
+          <li><strong>Margen es el espacio del límite del elemento hacia afuera.</strong></li>
+          <li><strong>Padding es el espacio del límite del elemento hacia adentro.
+
+          </strong></li>
+        </ul>
+
+
+        <pre>
+          <code>.navegacion-principal {
+        /* margin-top: 10rem; */
+        padding-top: 10rem;
+      }</code>
+      </pre>
+      
+        En el ejemplo en donde primero se pone el margen, se puede ver que la navegación tiene una separación más grande y se puede notar en el espacio en blanco.
+        <img alt="Image" src="img/img33.png"><br><br>
+        En el caso del padding, se hace ese espacio de 10 rem dentro del elemento y toma el color de fondo que ya está definido en el nav-bg. Este es el funcionamiento esperado para esta parte de la práctica: 
+        <img alt="Image" src="img/img34.png"><br><br>
+        Siendo este el camino, se añade el padding de 1rem. Al igual que con el margin, la sintaxis de CSS para añadir padding puede ser de la siguiente manera:
+        <pre>
+          <code>/*margin-top: 0;
+          margin-right: auto;
+          margin-bottom: 0;
+          margin-left: auto; Las cuatro l&iacute;neas se pueden poner en una sola:*/
+          /*margin: 0 auto 0 auto; Y si se requiere a&uacute;n m&aacute;s corto:*/
+          margin: 0 auto;</code>
+      </pre>
+      
+        Por lo que se añade la siguiente línea:
+        <pre>
+          <code>.navegacion-principal {
+        padding: 1rem; 
+      }</code>
+      </pre>
+      
+      
+        <li><strong>16. Formateando el texto del nav. </strong></li>
+
+        En la etiqueta “a” se le agrega el siguiente estilo para poner el color blanco y remover el estilo de texto subrayado:
+        <pre>
+          <code>.navegacion-principal a {
+          color: var(--blanco);
+          text-decoration: none; /* Remueve el estilo subrayado del texto */
+      }</code>
+      </pre>
+      
+
+        <li><strong>17.	Usando flexbox para centrar el contenido del nav.  </strong></li>
+
+        Primero hay que identificar el elemento padre en donde se van a aplicar los estilos (“navegacion-principal”) y de ahí añadir la línea que habilita el uso de Flexbox con la propiedad justify-content:
+
+
+        <pre>
+          <code>.navegacion-principal {
+        padding: 1rem; 
+        display: flex;
+        /* justify-content es para filas y align-items: es para columnas (usar flex-direction)*/
+        justify-content: space-between; /* probar space-around y space-evenly en DevTools*/
+      }</code>
+      </pre>
+      
+        Conociendo más acerca de Flexbox:
+        <img alt="Image" src="img/img39.png"><br><br>
+        <img alt="Image" src="img/img40.png"><br><br>
+        <img alt="Image" src="img/img41.png"><br><br>
+        <img alt="Image" src="img/img42.png"><br><br>
+
+        Realmente se parece a block, pero Flexbox tiene más propiedades para distribuir adecuadamente el contenido.
+        <img alt="Image" src="img/img43.png"><br><br>
+        <img alt="Image" src="img/img44.png"><br><br>
+
+        <li><strong>18.	¿Cómo escribir escribir mejor CSS? </strong></li>
+
+        <img alt="Image" src="img/img45.png"><br><br>
+        <img alt="Image" src="img/img46.png"><br><br>
+        <img alt="Image" src="img/img47.png"><br><br>
+        <img alt="Image" src="img/img48.png"><br><br>
+        Básicamente Utility First usa una propiedad y un valor por clase, lo cual hace que sea demasiado código, pero se usa comunmente. Una herramienta llamada Tailwind CSS funciona con utilidades. (Así está el nav-bg).
+
+        <img alt="Image" src="img/img49.png"><br><br>
+        Se define una clase padre y se va seleccionando todas las etiquetas HTML.
+        <img alt="Image" src="img/img50.png"><br><br>
+        De hecho Bootstrap utiliza módulos y utilidades.
+
+        
+        <li><strong>19.	Adaptando el estilo de la letra </strong></li>
+        Se añaden dos propiedades para hacer un poco más grande la letra y que esté en <strong>"negritas"</strong>:
+
+        <pre>
+          <code>.navegacion-principal {
+        padding: 1rem; 
+        display: flex;
+        /* justify-content es para filas y align-items: es para columnas (usar flex-direction)*/
+        justify-content: space-between; /* probar space-around y space-evenly en DevTools*/
+        font-size: 2rem; /* 2rem para hacerlo un poco m&aacute;s grande */
+        font-weight: bold; 
+      }</code>
+      </pre>
+      
+
+        <li><strong>20.	Añadiendo el efecto del hover. </strong></li>
+        Se usa un pseudo-clase (recordar que es una clase que se crea al momento, no son clases existentes como tal). Se añade el color de fondo como el primario y también el efecto es que el color de la letra sea más oscuro.
+
+        <pre>
+          <code>.navegacion-principal a:hover {
+          background-color: var(--primario);    
+          color: var(--oscuro);
+          /* probar focus y visited */
+      }</code>
+      </pre>
+      
+        Para que el estilo funcione de manera que tenga más espacio cada elemento del nav, hay que hacer un ajuste con el padding: tiene que quitarse de la navegación principal y situarla únicamente al elemento “a”.
+        <pre>
+          <code>.navegacion-principal a {
+        /*
+        C&oacute;digo anterior
+        */
+        padding: 1rem;   
+      }</code>
+      </pre>
+      
+
+        <li><strong>21.	Empezando con Responsive Web Design (diseño web adaptable o responsivo). </strong></li>
+
+        <img alt="Image" src="img/img54.png"><br><br>
+        <head>
+          <meta charset="UTF-8">
+          <title>Espaciado en Enlaces</title>
+          <style>
+              .facebook-link {
+                  color: blue;
+                  text-decoration: none; /* Elimina el subrayado */
+              }
+              .link-container {
+                  margin-top: 10px; /* Ajusta el espacio entre enlaces */
+              }
+          </style>
+      </head>
+      <body>
+          <p>
+            Un enfoque le pedía al usuario poner una url diferente depediendo del dispositivo con el que se esté usando la aplicación web. Facebook lo utiliza actualmente. Aunque realmente existía el problema de que, en lugar de mantener un sitio web, mantenías 3 o 4.
+            </p>
+          <div class="link-container">
+              <a href="https://facebook.com/" class="facebook-link">https://facebook.com/</a><br>
+              <a href="https://m.facebook.com/" class="facebook-link">https://m.facebook.com/</a>
+          </div>
+      </body>
+      </html>
+      
+      <img alt="Image" src="img/img55.png"><br><br>
+      <img alt="Image" src="img/img56.png"><br><br>
+      <img alt="Image" src="img/img57.png"><br><br>
+      <img alt="Image" src="img/img58.png"><br><br>
+
+
+        <p>Google puede penalizar a los sitios web que no son responsivos. Desde 2015, Google ha hecho cambios en su algoritmo para optimizar la experiencia de los usuarios móviles. Las páginas web que no están optimizadas para dispositivos móviles pueden ser penalizadas en los resultados de búsqueda.</p>
+        
+        <p>Esto significa que si el sitio web no está adaptado para visualizarse correctamente en dispositivos móviles, podría aparecer más abajo en los resultados de búsqueda de Google cuando los usuarios busquen desde sus teléfonos o tablets.</p>
+  
+        <p style="color: red; font-weight: bold; text-align: left;">
+          Aquí hay algunas recomendaciones para evitar ser penalizado:
+        <li><strong>1. Google prefiere sitios web cuya URL es única, independientemente del dispositivo desde el que se visite (ordenadores, tablets, móviles).</strong></li>
+        <li><strong>2. Evita el contenido duplicado. Google recomienda utilizar el mismo código HTML para todos los dispositivos, adaptando la experiencia de usabilidad vía técnicas de web responsive y siempre bajo una misma URL.</strong></li>
+          <li><strong>3. Las redirecciones son lentas. La penalización de rendimiento para ejecutar un redireccionamiento puede ser grave en los smartphones.</strong></li>
+
+          </strong></li>
+          <img alt="Image" src="img/img59.png"><br><br>
+          <img alt="Image" src="img/img60.png"><br><br>
+          <img alt="Image" src="img/img61.png"><br><br>
+          Ejemplo para probar resoluciones para teléfonos y tablets:
+          <pre>
+            <code>/*
+        Recomendado
+        480px para m&oacute;viles
+        768px para tablets
+        1140px para laptops
+        1400px para dispositivos m&aacute;s grandes
+        */
+        
+        @media (min-width: 480px ){
+            body {
+                background-color: blue;
+            }
+        }
+        
+        @media (min-width: 768px ){
+            body {
+                background-color: cornflowerblue;
+            }
+        }</code>
+        </pre>
+        
+          Poner un estilo por default que aplique desde 0 píxeles:
+          <pre>
+            <code>/* Se aplica desde 0 pixeles */
+        body {
+            background-color: bisque;
+        }
+        
+        /*
+        Recomendado
+        480 px para m&oacute;viles
+        */</code>
+        </pre>
+        
+        <pre>
+          <code>/* 768 px para tablets */
+      
+      @media (min-width: 480px ){
+          body {
+              background-color: blue;
+          }
+      }
+      
+      @media (min-width: 768px ){
+          body {
+              background-color: cornflowerblue;
+          }
+      }</code>
+      </pre>
+      
+          Una pregunta común cuando se explica el tema de Media Queries: Si se coloca una propiedad fuera de los @media, ¿se tiene que reescribir en cada @media? La respuesta es no, en el media query solo se va a colocar lo que va a modificar el diseño según el tamaño de la pantalla.
+          
+          <li><strong>22.	Creando un snippet.</strong></li>
+
+      
+          En el menú superior de VS Code, seleccionar “Ver” -> “Paleta de comandos” -> Escribir “Snippet” -> Seleccionar “CSS” y añadir el siguiente código debajo del código comentado:
+  
+          <pre>
+            <code>"Crear un Media Query": {
+                "prefix": "mq",
+                "body" : "@media (min-width: $1px) {\n  $2\n }"
+            }</code>
+        </pre>
+        
+          La sintaxis es la que marca el código comentado. El signo de dólar marca en dónde se va a posicionar el cursor con su respectivo orden. En el ejemplo, primero se posicionará el cursor para escribir la cantidad de pixeles y en segundo término, al presionar la tecla tabulador, se posicionará para añadir el selector. \n representa un salto de línea.
+          
+          <li><strong>23.	Aplicando el snippet.</strong></li>
+
+      
+          En la navegación principal se debe añadir flex-direction como columna y agregar el snippet para tablets (768 px) y ponerlo como row. De esta manera la condición que se espera cumplir es que, si el dispositivo tiene menos de 768px, se verá como columna para que no se pierdan los elementos; de lo contrario, los desplegará en una sola fila por sí tiene el espacio disponible.
+  
+          <pre>
+            <code>.navegacion-principal {
+          display: flex;
+          flex-direction: column;
+        }</code>
+        </pre>
+        
+        <pre>
+          <code>/* justify-content es para filas y align-items: es para columnas (usar flex-direction)*/
+        justify-content: space-between; /* probar space-around y space-evenly en DevTools*/
+        font-size: 2rem; /* 2rem para hacerlo un poco más grande */
+        font-weight: bold; 
+      }
+      
+      @media (min-width: 768px) {
+          .navegacion-principal{
+              flex-direction: row;
+          }
+       }</code>
+      </pre>
+      
+          Un tip para mejorar el scroll horizontal es poniendo max-width en vez de solo width en el contenedor ya que, al hacer scroll, se vería así sin el ajuste:
+          <pre>
+            <code>.contenedor{
+             max-width: 120rem; /* 1200 pixeles por que 1rem = 1px */
+        }</code>
+        </pre>
+        
+          <img alt="Image" src="img/img69.png"><br><br>
+
+          <li><strong>24.	Ejercicio: centrar horizontalmente los elementos del nav cuando flex-direction: column</strong></li>
+
+      
+          Solución: Recordar que para Flex, las filas (row) se centran usando justify-content y para columnas (column) se utiliza align-items:
+  
+          <pre>
+            <code>.navegacion-principal {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* justify-content es para filas y align-items: es para columnas (usar flex-direction)*/
+        }</code>
+        </pre>
+        
+        <pre>
+          <code>@media (min-width: 768px) {
+          .navegacion-principal{
+              flex-direction: row;
+              justify-content: space-between;
+          }
+       }</code>
+      </pre>
+       
+        </google-codelab-step>
+    
+      <google-codelab-step label="Añadir imagenes en Css" duration="15">
+        <li><strong>25.	Probando responsively app.</strong></li>
+
+      
+        Existe una aplicación muy útil para probar el sitio web en diferentes resoluciones, se recomienda descargar “Responsively app”.
+        <li><strong>26.	Añadiendo imágenes en CSS.</strong></li>
+
+      
+        Ajustando un poco el HTML para su posterior manejo a CSS, la sección donde irá la imagen llevará por nombre de clase “hero”. Asimismo, se pondrá el contenido de dicha sección en un nuevo div llamado contenido-hero. Se recomienda usar el shorcut de VS Code poniendo “div.contenido-hero” para crear más rápido dicha etiqueta HTML:
+  
+        <pre>
+          <code>&lt;section class="hero"&gt;
+              &lt;div class="contenido-hero"&gt;
+                  &lt;h2 class="titulo"&gt;Diseño y desarollo Web&lt;/h2&gt;
+                  &lt;svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round"&gt;
+                      &lt;path stroke="none" d="M0 0h24v24H0z" fill="none"/&gt;
+                      &lt;path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /&gt;
+                      &lt;path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /&gt;
+                  &lt;/svg&gt;
+                  &lt;p&gt;Mérida, Yucatán&lt;/p&gt;
+                  &lt;a href="#"&gt;Contactar&lt;/a&gt;
+              &lt;/div&gt;
+          &lt;/section&gt;</code>
+      </pre>
+      
+          En el CSS se va agregando la ubicación de la imagen hero. Tomando en cuenta que se encuentra fuera del directorio de CSS, hay que usar “../” para indicar que regresaremos a un nivel del directorio. El código quedaría de la siguiente manera:
+          <pre>
+            <code>.hero {
+            background-image: url(../img/hero.jpg); /* ../ es para regresar un nivel de directorio, la carpeta img está afuera de CSS */
+            background-repeat: no-repeat;  /* Sirve para evitar la repetición de la imagen cuando es pequeña y abarca todo el espacio de la página. Se prueba haciendo zoom out en el navegador */
+            background-size: cover; /* Sirve para cubrir la imagen con todo el tamaño */
+        }</code>
+        </pre>
+        
+
+          <li><strong>27.	Modelo de caja.</strong></li>
+
+              En los diversos elementos de html, existe un modelo que es necesario conocer para poder aplicar bien nuestros estilos y lograr el resultado deseado. Al inspeccionar cualquier elemento con nuestro DevTools se puede apreciar lo siguiente:
+    
+              <table>
+                <tr>
+                  <td><img alt="Image" src="img/img74.png" width="400" height="300"></td>
+                  <td><img alt="Image" src="img/img75.png" width="400" height="150"></td>
+      
+                </tr>
+              </table>
+              Existe un problema recurrente en el modelo de caja, la adaptación correcta al tamaño de algún elemento, esto pasa porque en ocasiones se requiere un tamaño específico de width que termina siendo un poco más complicado de determinar. Lo ideal es que el tamaño del width sea lo único en lo que se invierta tiempo, pero si existe un padding y un tamaño de border, el tamaño real del elemento se hace más grande:
+              
+              <table>
+                <tr>
+                  <td><img alt="Image" src="img/img76.png" width="400" height="300"></td>
+                
+      
+                </tr>
+              </table>
+
+              Una manera sencilla de solucionarlo fue propuesta por Paul Irish, developer de Google Chrome que comparte el siguiente snippet que soluciona ese caso en donde el padding pudiera hacer más grande el elemento:
+              <pre>
+                <code>html{
+                font-size: 62.5%;
+                box-sizing: border-box; /* Hack para el manejo de box model */
+            }
+            
+             /* Hack para el manejo de box model */ 
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }</code>
+            </pre>
+            
+              <li><strong>28.	Efecto “sombreado”.  </strong></li>
+
+      
+              Cuando se requiere posicionar el contenido en un lugar preciso, en CSS se debe usar la posición absoluto y relativa. Como se requiere posicionar el elemento “hero”, se debe poner siempre como relativa para que el hijo se pueda posicionar de forma absoluta. Se puede manejar la posición como si fueran coordenadas como el siguiente ejemplo:
+              <pre>
+                <code>/* Hero */
+            .hero {
+                background-image: url(../img/hero.jpg); /* ../ es para regresar un nivel de directorio, la carpeta img está afuera de CSS */
+                background-repeat: no-repeat;  /* Sirve para evitar la repetición de la imagen cuando es pequeña y abarca todo el espacio de la página. Se prueba haciendo zoom out en en el navegador */
+                background-size: cover; /* Sirve para cubrir la imagen con todo el tamaño */
+                height: 450px; /* Alto del elemento hero */
+                position: relative; /* Para manipular la posición, el padre siempre debe ser relative*/
+            }
+            
+            .contenido-hero {</code>
+            </pre>
+            <pre>
+              <code>.contenido-hero {
+              position: absolute; /* Para manipular la posición, el hijo siempre debe ser absolute */
+              background-color: red;
+              width: 2rem;
+              height: 2rem;
+              bottom: 0; /* Se pueden ir variando los elementos bottom/top y right/left para posicionar el cuadrado rojo */
+              right: 0;
+          }</code>
+          </pre>
+          
+                Para lograr que el color rojo cubra todo el elemento como se desea, se puede hacer primeramente de la siguiente manera:
+                <pre>
+                  <code>.contenido-hero {
+                  position: absolute; /* Para manipular la posición, el hijo siempre debe ser absolute */
+                  background-color: red;
+                  top: 0;
+                  bottom: 0;
+                  right: 0;
+                  left: 0;
+              }</code>
+              </pre>
+              
+                Se recomienda aún más utilizar la siguiente sintaxis para evitar poner las “4 coordenadas” y se añade el color rgba para usar el alpha channel con la trasparencia al 70%:
+                <pre>
+                  <code>.contenido-hero {
+                  position: absolute; /* Para manipular la posición, el hijo siempre debe ser absolute */
+                  background-color: rgba(0, 0, 0, .7); /* .7 es para la transparencia al 70% */
+                  width: 100%; /* Para que el efecto de "sombreado" abarque todo el ancho */
+                  height: 100%; /* Para que el efecto de "sombreado" abarque todo el largo */
+              }</code>
+              </pre>
+              
+
+                <li><strong>29.	Trabajando con los headings del hero.</strong></li>
+
+      
+                Para ir manipulando de una manera diferente los títulos, se recomienda borrar la clase del h2 que está dentro de hero.
+                <pre>
+                  <code>&lt;section class="hero"&gt;
+                      &lt;div class="contenido-hero"&gt;
+                          &lt;h2 class="titulo"&gt;Diseño y desarollo Web&lt;/h2&gt;
+              </code>
+              </pre>
+              
+          Después a la clase hero se usa flex para centrar horizontal y verticalmente el texto. También se le añade el color blanco al párrafo y al encabezado.
+          <pre>
+            <code>.contenido-hero {</code>
+        </pre>
+        
+        <pre>
+          <code>.contenido-hero {
+          position: absolute; /* Para manipular la posición, el hijo siempre debe ser absolute*/
+          background-color: rgba(0, 0, 0,.7); /* .7 es para la transparencia al 70% */
+          width: 100%; /* Para que el efecto de "sombreado" abarque todo el ancho */
+          height: 100%; /* Para que el efecto de "sombreado" abarque todo el largo */
+          /* Alinear vertical y horizontalmente */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .contenido-hero p,
+      .contenido-hero h2 {
+          color: var(--blanco);
+      }</code>
+      </pre>
+      
+
+          Para manejar de mejor manera los tamaños de los headings, se agrega el siguiente código por debajo del body y se borra el css que centraba y le daba 3.8 rem a la clase título. Esto con el fin de manejar de manera global dichos elementos, es una buena práctica.
+          <pre>
+            <code>body{
+            font-size: 16px; /* 1 rem = 10 px */
+            font-family: 'Krub', sans-serif;
+        }
+        
+        /* Tipografía */
+        h1 {
+            font-size: 3.8rem;
+        }
+        h2 {
+            font-size: 2.8rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+        }
+        h1,h2,h3 {
+            text-align: center;
+        }
+        
+        /* Títulos */
+        .titulo{
+            text-align: center;
+            font-size: 3.8rem;
+        }</code>
+        </pre>
+        
+          Se recomienda envolver las etiquetas svg y p en un div de ayuda cuya clase de llame ubicación y se le aplica flex para alinear hacia abajo con flex-end.
+
+          <pre>
+            <code>&lt;h2&gt;Diseño y desarollo Web&lt;/h2&gt;
+                        &lt;div class="ubicacion"&gt;
+                            &lt;svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round"&gt;
+                                &lt;path stroke="none" d="M0 0h24v24H0z" fill="none"/&gt;
+                                &lt;path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /&gt;
+                                &lt;path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /&gt;
+                            &lt;/svg&gt;
+                            &lt;p&gt;Mérida, Yucatán&lt;/p&gt;
+                        &lt;/div&gt;</code>
+        </pre>
+        
+
+        <pre>
+          <code>.ubicacion{
+          display: flex;
+          align-items: flex-end;
+      }</code>
+      </pre>
+      
+
+          <li><strong>30.	Creando el botón de contactar. </strong></li>
+
+      
+          En la etiqueta “a” se crea una clase llamada botón. Después del estilo del contenedor, a dicha clase se le asignará el siguiente estilo con sus respectivo media query para que se adapte el estilo usado para dispositivos móviles:
+          <pre>
+            <code>&lt;a class="boton" href="#"&gt;Contactar&lt;/a&gt;</code>
+        </pre>
+        
+        <pre>
+          <code>.boton{
+          background-color: var(--secundario); /* Color de fondo del botón */
+          color: var(--blanco); /* Color del texto */
+          padding: 1rem 3rem; /* Espacio interior */
+          margin-top: 3rem; /* Separación superior*/
+          font-size: 2rem; /* Tamaño de la letra */
+          text-decoration: none; /* Quitar el subrayado */
+          text-transform: uppercase; /* Convertir texto en mayúsculas */
+          font-weight: bold; /* Texto en negritas */
+          border-radius: .5rem; /* Esquinas redondeadas */
+          width: 90%; /* Ancho del botón, que abarque el 90% posible si se encuentra en una pantalla pequeña */
+          text-align: center; /* Centrar el texto del botón */
+      }</code>
+      </pre>
+      
+      <pre>
+        <code>@media (min-width: 768px) {
+        .boton {
+            width: auto;
+        }
+    }</code>
+    </pre>
+    
+          
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Estilos" duration="5">
+        
+        <li><strong>31.	Añadiendo el degradado de fondo </strong></li>
+
+      
+        En el body se le agrega un linear-gradiente que funciona de manera que primero se define hacia a donde se requiere hacer el degradado, empezando por cuál color con su respectivo porcentaje hasta cuál color se pretende llegar con su respectivo porcentaje:
+        <pre>
+          <code>body{
+          font-size: 16px; /* 1 rem = 10 px */
+          font-family: 'Krub', sans-serif;
+          background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%); /* Degradado de arriba hacia abajo */
+      }</code>
+      </pre>
+      
+
+          <li><strong>32.	Centrar el contenido de “Mis servicios”.  </strong></li>
+
+      
+          Únicamente sería necesario agregar la clase contenedor a la etiqueta main para que reutilice el estilo previamente definido:
+          <pre>
+            <code>&lt;main class="contenedor"&gt;
+                &lt;h2&gt;Mis servicios&lt;/h2&gt;</code>
+        </pre>
+        
+  
+            <li><strong>33.	Añadiendo la sombra al main.   </strong></li>
+
+      
+            Primero se añade la clase sombre al mismo contenedor de la clase anterior. 
+
+            <pre>
+              <code>&lt;main class="contenedor sombra"&gt;
+                  &lt;h2&gt;Mis servicios&lt;/h2&gt;</code>
+          </pre>
+          
+            
+
+            Después se busca en una página que genera código css para box shadow:  <a href="https://m.facebook.com/" class="facebook-link">https://m.facebook.com/</a>
+Se puede ver que el código generado tiene prefijos webkit y moz, los cuales son motores para diferentes navegadores (Google Chrome y Mozilla Firefox respectivamente) y es necesario añadirlos para la compatibilidad porque box-shadow puede variar un poco entre diferentes entornos. La realidad es que actualmente sería raro que este tipo de propiedades tengan problema entre navegadores, por lo que no debería haber tanto problemas por si se remueven las dos líneas con el prefijo. Para consultar la disponibilidad de las propiedades entre diferentes navegadores, consultar en <a href="https://m.facebook.com/" class="facebook-link">https://caniuse.com/. </a>
+También se le añade un padding de 2 rem, un borde redondeado de 1 rem y el color de fondo blanco. Se  añade el estilo generado debajo del body:
+<pre>
+  <code>.sombra{
+  box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.48); /* Sombra del elemento, al borde */
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.48); /* Motor para Chrome */
+  -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.48); /* Motor para Firefox */
+  background-color: var(--blanco); /* Color de fondo */
+  padding: 2rem; /* Espacio interior */
+  border-radius: 1rem; /* Esquinas redondeadas */
+}</code>
+</pre>
+
+Lo único que faltaría sería que el hero tenga un margen hacia debajo de 2rem:
+<pre>
+  <code>/* Hero */
+.hero {
+  background-image: url(../img/hero.jpg); /* ../ es para regresar un nivel de directorio, la carpeta img está afuera de CSS */
+  background-repeat: no-repeat;  /* Sirve para evitar la repetición de la imagen cuando es pequeña y abarca todo el espacio de la página. Se prueba haciendo zoom out en en el navegador */
+  background-size: cover; /* Sirve para cubrir la imagen con todo el tamaño */
+  height: 450px; /* Alto del elemento hero */
+  position: relative; /* Para manipular la posición, el padre siempre debe ser relative*/
+  margin-bottom: 2rem;
+}</code>
+</pre>
+
+  <li><strong>34.	Sección de “Mis servicios   </strong></li>
+
+      
+  ¿Cuándo usar Grid y cuándo usar Flexbox?
+
+  <img alt="Image" src="img/img97.png"><br><br>
+  <img alt="Image" src="img/img98.png"><br><br>
+  En esta caso conviene más usar Grid para posicionar los elementos. Para ello se va a poner todas las 3 secciones de “Mis servicios” en un div cuya clase sea “servicios” y a su vez cada sección se llamará “servicio”. Asimismo, como en la sección de aplicaciones móviles hay 2 íconos, para poder manejar los elementos es mejor añadir cada sección de íconos en su propio div llamado “íconos” (se cierra el div antes de la apertura del párrafo):
+  <pre>
+    <code>&lt;h2&gt;Mis servicios&lt;/h2&gt;
+        &lt;div class="servicios"&gt;
+            &lt;section class="servicio"&gt;
+  &lt;h3&gt;Diseño Web&lt;/h3&gt;
+ 		&lt;div class="iconos"&gt;
+			 . 
+			 . 
+		&lt;/div&gt; &lt;!--.iconos--&gt;
+                      &lt;p&gt;
+                      &lt;/p&gt;
+            &lt;/section&gt;
+            &lt;section class="servicio"&gt;
+  &lt;h3&gt;Aplicaciones móviles&lt;/h3&gt;
+		&lt;div class="iconos"&gt;
+			 . 
+			 . 
+		&lt;/div&gt; &lt;!--.iconos--&gt;
+                      &lt;p&gt;
+                      &lt;/p&gt;
+            &lt;/section&gt;
+            &lt;section class="servicio"&gt;
+  &lt;h3&gt;E-commerce&lt;/h3&gt;
+		&lt;div class="iconos"&gt;
+			 . 
+			 .  
+		&lt;/div&gt; &lt;!--.iconos--&gt;
+                      &lt;p&gt;</code>
+</pre>
+
+<pre>
+  <code>&lt;/p&gt;
+          &lt;/section&gt;
+&lt;/div&gt; &lt;!--.servicios--&gt;</code>
+</pre>
+
+  Se utilizan las clases para manejar los siguientes estilos:
+  <pre>
+    <code>/* Servicios */
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr); /* La propiedad define el área de las columnas y la función repeat() repite 3 veces 1 fracción en el grid, también se puede poner 1fr 1fr 1fr o 33.3% 33.3% 33.3% */
+        column-gap: 1rem;
+    }
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio h3 {
+    color: var(--secundario);
+    font-weight: normal;
+}
+
+.servicio p {
+    line-height: 2; /* Interlineado */
+    text-align: center;
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}</code>
+</pre>
+
+
+  <li><strong>35.	Comenzando los estilos del formulario.  </strong></li>
+
+      
+  Primero se cambia el cierre de la etiqueta “main” para que abarque la sección de contacto, de tal manera que se pegue por encima del footer. Asimismo, añadir la clase “formulario” en la etiqueta form.
+
+  <pre>
+    <code>&lt;/div&gt;
+                &lt;/fieldset&gt;
+            &lt;/form&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;</code>
+</pre>
+
+<pre>
+  <code>&lt;section&gt;
+          &lt;h2&gt;Contacto&lt;/h2&gt;
+          &lt;form class="formulario"&gt;</code>
+</pre>
+
+  Se introduce la función min() en CSS que ayuda ahorrar varios media querys. En esencia se pregunta: ¿Qué es más pequeño, 60rem o el 100% del tamaño de la pantalla? 
+  Ejemplo 1: Sí tengo un dispositivo móvil con 488px de ancho, es más pequeño el 100%, por lo que tomará ese valor y no los 60 rem. 
+  Ejemplo 2: Caso contrario, tengo una tablet con 768px, ahí sí es menor 60 rem, por lo que se tomará ese valor
+  Se muestran los estilos para el formulario en general, para el fieldset en donde se le remueve el borde que se le asigna por default y para el legend se le da el estilo a la letra y al margen:
+  <pre>
+    <code>
+/* Contacto */
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%);  /* Ahorra media querys. ¿Qué es más pequeño, 60rem o el 100% del tamaño de la pantalla? Ejemplo: Sí tengo un dispositivo móvil con 488px de ancho, es más pequeño el 100%, por lo que tomará ese valor y no los 60 rem. Caso contrario, tengo una tablet con 768px, ahí sí es menor 60 rem, por lo que se tomará ese valor */
+    margin: 0 auto; 
+    /* Usarlo si el padre no es un display flex (siendo así se usaría el justify-content, el formulario tiene block por default */
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+}
+    </code>
+</pre>
+<pre>
+  <code>
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: var(--primario);
+  </code>
+</pre>
+
+
+  Para manejar los estilos de los “label’s”, estos estarán en un div cuya clase sería “contenedor-campos” y cada label tendrá como clase “campo”. Utilizar el tip 6 de multicursor para darle clase a cada div de manera rápida. Añadir también la clase “enviar” al botón.
+
+  <pre>
+    <code>
+       &lt;fieldset&gt;
+            &lt;legend&gt;Llena tus datos para establecer contacto&lt;/legend&gt;
+            &lt;div class="contenedor-campos"&gt;
+              &lt;div class="campo"&gt;
+                &lt;label&gt;Nombre&lt;/label&gt;
+                &lt;input type="text" placeholder="Tu nombre" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="campo"&gt;
+                &lt;label&gt;Teléfono&lt;/label&gt;
+                &lt;input type="tel" placeholder="Tu teléfono" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="campo"&gt;
+                &lt;label&gt;Correo&lt;/label&gt;
+                &lt;input type="email" placeholder="Tu Email" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="campo"&gt;
+                &lt;label&gt;Mensaje&lt;/label&gt;
+                &lt;textarea&gt;&lt;/textarea&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- .contenedor-campos --&gt;
+            &lt;div class="enviar"&gt;
+              &lt;input type="submit" value="Enviar" /&gt;
+            &lt;/div&gt;
+          &lt;/fieldset&gt;
+    </code>
+</pre>
+     
+        Se empiezan a añadir los selectores:
+        <pre>
+          <code>
+          .contenedor-campos{
+            /* Agrega las reglas que desees aquí */
+          }
+          .campo{
+            /* Estilos para cada campo del formulario */
+          }
+          </code>
+      </pre>
+      
+      <pre>
+        <code>
+        .campo {
+            margin-bottom: 1rem;
+        }
+        .campo label {
+            color: var(--blanco);
+            font-weight: bold;
+            margin-bottom: .5rem;
+            display: block; /* Logra que cada label tome todo el espacio disponible y estar separado del input */
+        }
+        .input-text {
+            width: 100%;
+            border: none;
+            padding: 1.5rem;
+            border-radius: .5rem;
+        }
+        .campo textarea {
+            height: 20rem; /* Hacer más grande la altura del textarea */
+        }
+        </code>
+    </pre>
+    
+
+        
+  <li><strong>36.	Estilos al botón.  </strong></li>
+
+      
+  Antes ya se había creado una clase llamada “boton” que se puede reutilizar con algunos ajustes y mejoras. En el input del botón se le agrega esa clase:
+  <pre>
+    <code>
+    <div class="enviar">
+        <input class="boton" type="submit" value="Enviar" />
+    </div>
+    </code>
+</pre>
+
+  Ya tiene un estilo diferente al que estaba antes, pero todavía falta estilizar. Como el botón de “contactar” era una etiqueta “a” y este botón es de la etiqueta “input”, tiene apariencias diferentes. Todos los inputs tienen un border por default que, en este caso, habría que remover. Aquí se puede ver la diferencia de bordes:
+  <img alt="Image" src="img/img113.png"><br><br>
+
+  Para remover ese borde, se agrega la siguiente línea al selector de clase “boton” y se agrega el hover para que el cursor cambie a la mano cuando esté encima del botón:
+  <pre>
+    <code>
+    /* Botón */
+    .boton{
+        background-color: var(--secundario); /* Color de fondo del botón */
+        color: var(--blanco); /* Color del texto */
+        padding: 1rem 3rem; /* Espacio interior */
+        margin-top: 3rem; /* Separación superior*/
+        font-size: 2rem; /* Tamaño de la letra */
+        text-decoration: none; /* Quitar el subrayado */
+    }
+    </code>
+</pre>
+
+<pre>
+  <code>
+  text-transform: uppercase; /* Convertir texto en mayúsculas */
+  font-weight: bold; /* Texto en negritas */
+  border-radius: .5rem; /* Esquinas redondeadas */
+  width: 90%; /* Ancho del botón, que abarque el 90% posible si se encuentra en una pantalla pequeña */
+  text-align: center; /* Centrar el texto del botón */
+  border: none; /* Esto afecta únicamente al boton de la etiqueta "input", si esta propiedad no existe en el enlace "a" , simplemente lo ignora */
+
+  @media (min-width: 768px) {
+      .boton {
+          width: auto;
+      } 
+  }
+
+  .boton:hover{
+      cursor: pointer;
+  }
+  </code>
+</pre>
+
+  Se toma en cuenta el enfoque de utilidades para alinear el botón a la derecha. Para ello se ajusta el nombre de las clases en html:
+  <pre>
+    <code>
+        &lt;div class="alinear-derecha flex"&gt;
+            &lt;input class="boton w-sm-100" type="submit" value="Enviar" /&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+
+En utilidades, la w suele representar “width”, sm “small” y 100 es que toma el 100% del espacio disponible. En CSS se agregan los estilos correspondientes justo arriba del apartado de “Navegación principal”. Se le asigna que si el tamaño de la pantalla corresponde a una smartphone, tomará el 100%, pero el comportamiento que se espera si se ve desde un dispositivo más grande sería el tamaño automático del botón y que su alineación sea a la derecha (se usa flex-end).
+<pre>
+  <code>
+      /* Utilidades */
+      .w-sm-100{
+          width: 100%;
+      }
+      @media (min-width: 768px) {
+          .w-sm-100{
+              width: auto;   
+          }
+      }
+      .flex{
+          display: flex;
+      }
+      .alinear-derecha{
+          justify-content: flex-end;
+      }
+  </code>
+</pre>
+
+<pre>
+  <code>
+      /* Navegación principal */
+      .nav-bg{
+          background-color: var(--secundario);
+      }
+  </code>
+</pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Inputs" duration="15">
+        <li><strong> 37.Posiciones de los inputs.  </strong></li>
+
+      
+        Para lograr la posición de los inputs, se recomienda usar grid para ahorrar código y no cambiar nada del HTML. Se le añade el respectivo media query para manejar los casos de los dispositivos que tengan el tamaño menor al del una tablet de 768px. Se usará la pseudo-selector nth-child que significa el # del hijo del elemento en cuestión. En los campos sería: nombre, teléfono, correo, mensaje. Como requerimos modificar correo y mensaje, usaremos 3 y 4 en nth-child. El código se pondría debajo de los selectores de la clase formulario. Se manejan los estilos de la siguiente manera:
+
+
+        <pre>
+          <code>
+              @media (min-width: 768px) {
+                  .contenedor-campos{
+                      display: grid;
+                      grid-template-columns: repeat(2,1fr);
+                      column-gap: 1rem;
+                      grid-template-rows: auto auto 20rem; /* Darle el espacio de cada fila*/
+                  }
+                  /* También se podría crear la clase de ayuda campo-correo para llamar el selector, pero se recomienda no crear nuevas clases si no es estrictamente necesario.
+                  nth-child significa el # del hijo. El orden sería: nombre, teléfono, correo, mensaje. Como requerimos modificar correo y mensaje, usaremos 3 y 4 en nth-child */
+                  .campo:nth-child(3),
+                  .campo:nth-child(4){
+                      grid-column: 1/3; /* Para posicionar el elemento, "que vaya de la columna 1 a la 3*/
+                  }
+              }
+          </code>
+      </pre>
+      
+        <li><strong> 38.	Centrar el texto del footer. </strong></li>
+
+      
+        Respetando la especificidad de CSS, se podría utilizar un selector de etiqueta, pero es mejor práctica usar el selector de clase, por lo que se crea y se centra con text-align:
+        <pre>
+          <code>
+              &lt;footer class="footer"&gt;
+                  &lt;p&gt;Todos los derechos reservados ©. Rodrigo Gaxiola Developer&lt;/p&gt;
+              &lt;/footer&gt;
+          </code>
+      </pre>
+      
+      <pre>
+        <code>
+            /* Footer */
+            .footer {
+                text-align: center;
+            }
+        </code>
+    </pre>
+    
+        <li><strong>39.	Agregar la propiedad scroll-snap </strong></li>
+
+      
+        El Scroll Snap es una propiedad de CSS que permite controlar el desplazamiento en una página web. Al hacer scroll, ya sea con el ratón desde un ordenador o portátil, o desde la pantalla de un smartphone, este desplazamiento se detiene en un punto en concreto de la web, normalmente el comienzo de una nueva sección. Esto es muy útil en sitios web que tienen una disposición en diferentes bloques horizontales, y se quiere que los usuarios salten de uno a otro de la forma más directa posible. Un buen ejemplo de una página que utiliza Scroll Snap es la página de Tesla. Al navegar por ella, se puede observar cómo se salta directamente de una imagen a otra de forma directa. Es importante mencionar que la compatibilidad de Scroll Snap con los navegadores web es bastante amplia, asegurando un buen funcionamiento en casi el 94% de los usuarios. Sin embargo, hay que tener en cuenta que puede haber problemas con Internet Explorer y los navegadores para móviles de Opera. Otro ejemplo además de la página de Tesla, es la página de los Airpods Pro de apple que utiliza Scroll Snap para crear una animación que cambia a medida que el usuario se desplaza por la página. Para manejar en qué parte se estaría aplicando el scroll, se añadiría una clase para el h2 de “Mis servicios” y “Contacto”:
+
+        <pre>
+          <code>
+              &lt;h2 class="servicios-heading"&gt;Mis servicios&lt;/h2&gt;
+          </code>
+      </pre>
+      
+      <pre>
+        <code>
+            &lt;h2 class="contacto-heading"&gt;Contacto&lt;/h2&gt;
+        </code>
+    </pre>
+    
+        En la etiqueta global se añade la propiedad del scroll snap y en la parte inferior se definen las propiedades más específicas correspondientes a los títulos y encabezados:
+        <pre>
+          <code>
+              /* Globales */
+              html {
+                font-size: 62.5%;
+                box-sizing: border-box; /* Hack para el manejo de box model */
+                scroll-snap-type: y mandatory; /* La letra "y" hace referencia al eje y que quiere decir que se enfoca en el scroll vertical. Mandatory define que tan estricto se requiere el scroll. Otra alternativa menos estricta es proximity */
+              }
+      
+              /* Scroll snap */
+              .titulo,
+              .servicios-heading,
+              .contacto-heading {
+                scroll-snap-align: start; /* Indica el punto en el contenedor de desplazamiento al que debe ajustarse el contenido*/
+                scroll-snap-stop: always; /* Controla si el desplazamiento debe detenerse siempre en los puntos de ajuste */
+              }
+          </code>
+      </pre>
+      
+        <li><strong>40.	Subir la página a un hosting: </strong></li>
+        Existen muchas páginas para subir proyectos web como Hostinger, HostGator y demás; sin embargo, la mayoría son de paga y no ofrecen muchas opciones a un plan gratuito. Otra opción más simple podría ser Github Pages, para fines educativos funciona bien. La alternativa más recomendada hoy en día es netlify ya que ofrece las siguientes ventajas:
+      
+        <ul style="list-style: none; padding: 0;">
+          <li><span style="color: green; font-weight: bold;">1.</span> Es totalmente gratis probarla</li>
+          <li><span style="color: green; font-weight: bold;">2.</span> Es muy fácil subir los proyectos así como su actualización.</li>
+          <li><span style="color: green; font-weight: bold;">3.</span> No tiene publicidad</li>
+          <li><span style="color: green; font-weight: bold;">4.</span> Netlify puede vincular múltiples nombres de dominio, mientras que GitHub Pages solo puede vincular un nombre de dominio.</li>
+          <li><span style="color: green; font-weight: bold;">5.</span> Con Netlify, el repositorio original puede ser privado, mientras que GitHub Pages requiere que el repositorio original sea público.</li>
+          <li><span style="color: green; font-weight: bold;">6.</span> Primero se crea una cuenta en Netlify utilizando la cuenta de GitHub. Para ello se requerirá autorizar ciertos permisos. Si por alguna razón no se puede crear la cuenta vinculándolo con GitHub, se tendría que crear por correo.</li>
+          <img alt="Image" src="img/img125.png"><br><br>
+          <img alt="Image" src="img/img126.png"><br><br>
+          <li><span style="color: green; font-weight: bold;">7.</span> Se accede a la opción “Sites” que está en el panel de la izquierda.</li>
+          <img alt="Image" src="img/img127.png"><br><br>
+          <li><span style="color: green; font-weight: bold;">8.</span> Se arrastra y suelta la carpeta que contiene el proyecto en el espacio correspondiente. No se recomienda subir los archivos por separado.</li>
+          <li><span style="color: green; font-weight: bold;">9.</span> Al esperar unos cuantos segundos, ya deberá funcionar y se accede a la opción “Site overview” que está en el panel de la izquierda.</li>
+          <li><span style="color: green; font-weight: bold;">10.</span> Si se necesita hacer deploy de algún cambio en el proyecto, se requiere volver a cargar la carpeta completa en la opción “Deploy” que está en el panel de la izquierda.</li>
+          <li><span style="color: green; font-weight: bold;">11.</span> Para cambiar el nombre del dominio para usar uno personalizado, se accede a la opción “Site configuration” que está en el panel de la izquierda y ahí se presiona el botón “Change site name”.</li>
+        </ul>
+
+        
+
+
+        <li><strong> 41.	Auditar la calidad de la página con Lighthouse.  </strong></li>
+
+      
+        Existe una extensión que funciona en Google Chrome llamada  “Lighthouse” cuyo creador es de Google. Se le agrega una página web y lighthouse le ejecuta pruebas para crear un reporte y mostrar si la página web funciona correctamente. Con esto se termina la presente práctica.
+
+
+      </google-codelab-step>
+    
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
